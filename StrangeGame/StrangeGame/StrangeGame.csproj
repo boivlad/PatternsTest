@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63BA9108-B57A-41CB-A287-BDE612025E26}</ProjectGuid>
+    <ProjectGuid>{D98FE70D-1DFC-4EE4-AA7F-9B5BF16B6EFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Discounts</RootNamespace>
-    <AssemblyName>Discounts</AssemblyName>
+    <RootNamespace>StrangeGame</RootNamespace>
+    <AssemblyName>StrangeGame</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="creators\Fashionable.cs" />
-    <Compile Include="creators\Normal.cs" />
-    <Compile Include="creators\SecondHand.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="products\Hat.cs" />
-    <Compile Include="products\Jacket.cs" />
-    <Compile Include="products\Jeans.cs" />
+    <Compile Include="PlayingField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
